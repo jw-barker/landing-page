@@ -143,6 +143,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: #3882f6;
     height: 100px;
     padding: 50px;
@@ -157,4 +158,13 @@ button {
 
 .cta-text {
     color: #f9f5f8;
+}
+
+.cta-button {
+    border:solid 2px white;
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    justify-content: center;
+    align-self: flex-end;
 }
