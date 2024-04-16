@@ -17,7 +17,7 @@ ul {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    filter: drop-shadow(0 1px 8px);
+    /* filter: drop-shadow(0 1px 8px); */
     align-items: center;
     padding: 30px;
 }
@@ -44,7 +44,6 @@ ul {
     display: flex;
     min-width: 400px;
     color: white;
-    justify-content: center;
     align-items: center;
 }
 
@@ -80,20 +79,20 @@ button {
 }
 
 .information {
-    background-color: #eeeeee;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     gap: 52px;
     padding: 50px;
 }
 
-.title{
+.title {
     text-align: center;
     font-weight: bolder;
     font-size: 36px;
     padding-top: 20px;
     color: #1f2937;
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 .boxes {
     max-width: 200px;
@@ -103,7 +102,7 @@ button {
 .box {
     width: 200px;
     height: 200px;
-    border: #3882f6 solid 2px;
+    border: #3882f6 solid 4px;
     border-radius: 10px;
 }
 
@@ -114,4 +113,48 @@ button {
     margin-bottom: auto;
     justify-content: center;
     padding: 20px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.quoted {
+    text-align: right;
+}
+
+.cta {
+    padding: 90px;
+}
+
+.cta-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3882f6;
+    height: 100px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9f5f8;
+}
+
+.cta-text {
+    color: #f9f5f8;
 }
